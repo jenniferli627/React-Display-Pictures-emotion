@@ -1,0 +1,21 @@
+.episode {
+  flex: 1;
+  flex-basis: 20%;
+  margin-inline: 1%;
+  margin-block: 5px;
+  min-width: 200px;
+  height: 200px;
+  padding-block: 16px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.episode:hover {
+  outline: 2px solid red;
+  cursor: pointer;
+}
+
+.episode-name {
+  width: 150px;
+  margin: auto;
+}
